@@ -366,6 +366,21 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.skills.section .skills__container.bd-grid {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.skills.section .skills__container.bd-grid .skillset-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100% !important;
+}
+
+.skills.section .skills__container.bd-grid .skillset-list .skills__data {
+    width: 90%;
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
