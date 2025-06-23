@@ -573,6 +573,11 @@ img {
     color: #fff;
 }
 
+.work.section .work-container {
+    margin-left: auto !important;
+    margin-right: auto;
+}
+
 
 /* ===== CONTACT =====*/
 .contact__input {
