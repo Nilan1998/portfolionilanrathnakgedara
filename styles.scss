@@ -348,7 +348,7 @@ img{
 
 .goo-filter { position: absolute; top: 0; left: 0; visibility: hidden; }
 
-#work *, #work *:before, #work *:after {
+*, *:before,*:after {
   box-sizing: border-box;
   position: relative;
   transition: inherit;
